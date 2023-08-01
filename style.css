@@ -1,0 +1,167 @@
+/*pagina inicial*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+#pag1 {
+    background-color: #b85447;
+    height: 100vh;
+    color: beige;
+}
+
+header ul {
+    padding: 2em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+header ul a {
+    color: #DFBDA4;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    border: 3px solid #DFBDA4;
+    border-radius: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: box-shadow 0.3s;
+}
+
+header ul a:hover {
+    color: #ebe2dc;
+    box-shadow: 3px 3px 5px rgb(44, 41, 41);
+}
+
+.titulo {
+    overflow: hidden;
+    align-items: center;
+}
+
+.titulo img {
+    margin-top: 2em;
+    margin-right: 20em;
+    width: 35%;
+    float: right;
+}
+
+.titulo h1,
+.titulo h2 {
+    font-size: 80px;
+    text-align: right;
+    text-shadow: 2px 2px 5px rgb(44, 41, 41);
+}
+
+.titulo h1 {
+    margin-top: 3.5em;
+}
+
+.titulo h2 {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*sobre mi*/
+
+#pag2 {
+    color: #353238;
+    font-size: 25px;
+    background-color: #DFBDA4;
+    height: 100vh;
+    overflow: hidden
+}
+
+.imagen img {
+    float: left;
+    width: 25%;
+    margin-right: 50px;
+    margin-left: 300PX;
+    margin-top: 190px;
+    border-radius: 20px;
+}
+
+.texto {
+    position: relative;
+    top: 190px;
+}
+
+.texto h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #92140c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto p {
+    font-size: 35px;
+    line-height: 1.5;
+    overflow: hidden;
+    width: 600px;
+    height: auto;
+    text-align: justify;
+}
+
+
+/*habilidades*/
+
+#pag3 {
+    background-color: #353238;
+    height: 100vh;
+    color: beige;
+    text-align: center;
+}
+
+.habilidades {
+    display: grid;
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.habilidades h2 {
+    margin-top: 25px;
+    letter-spacing: 10px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12em;
+    margin-right: 15em;
+    margin-left: 15em;
+    transition: box-shadow 1s;
+}
+
+.html:hover{
+    padding: 1em;
+    background-color: #db3c0c;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.css:hover{
+    padding: 1em;
+    background-color: #0c77db;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.js:hover{
+    padding: 1em;
+    background-color: #dfb911;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.py:hover{
+    padding: 1em;
+    background-color: #193c86;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+}
